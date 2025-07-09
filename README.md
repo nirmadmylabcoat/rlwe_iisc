@@ -28,9 +28,8 @@ Where:
 
 **Ring-LWE (RLWE)** is a lattice-based assumption used in post-quantum cryptography. This program operates over the polynomial ring:
 
-\[
-\mathbb{Z}_q[x]/(x^n + 1)
-\]
+The ring: ℤₚ[x]/(xⁿ + 1)
+
 
 Where `n` is a power of 2 and `q` is a prime modulus. The hardness of breaking the commitment lies in solving noisy polynomial equations under this ring structure.
 
