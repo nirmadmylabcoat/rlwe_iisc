@@ -14,9 +14,7 @@ This program demonstrates a simple **RLWE-based cryptographic commitment scheme*
 
 This scheme commits to a message polynomial `m(x)` using a key pair `(a(x), b(x))`:
 
-\[
-\text{Commit: } c(x) = a(x) \cdot m(x) + b(x) \cdot r(x) + e(x)
-\]
+\[\text{Commit: } c(x) = a(x) \cdot m(x) + b(x) \cdot r(x) + e(x)\]
 
 Where:
 - `a(x)`: public RLWE base polynomial (random)
